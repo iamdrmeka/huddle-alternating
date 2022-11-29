@@ -1,0 +1,286 @@
+@import "config";
+
+body{
+    font-family: $body-font;
+    font-weight: 400;
+}
+
+header {
+  background-color: $Very-Pale-Cyan;
+  background-image: url("/images/bg-hero-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+  }
+}
+
+.logo {
+  img {
+    width: 150px;
+  }
+}
+
+nav {
+  a {
+    background-color: #fff;
+    // background-color: red;
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 10px -5px $Very-Dark-Cyan;
+    transition: 0.6s;
+    &:hover {
+      background-color: $Very-Pale-Cyan;
+    }
+  }
+}
+
+div.img-txt {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 1rem 4rem;
+
+  .head-txt {
+    padding: 0 1rem 0 0;
+    h1 {
+      color: $Very-Dark-Cyan;
+      margin-right: 2rem;
+      font-family: $header-font;
+      font-weight: 600;
+    }
+
+    p {
+      color: $Very-Dark-Cyan;
+      margin-top: 2rem;
+      margin-right: 0.5rem;
+    }
+
+    a {
+      display: block;
+      color: $Very-Pale-Cyan;
+      text-decoration: none;
+      background-color: $Pink;
+      width: 210px;
+      height: 40px;
+      border-radius: 80px;
+      line-height: 1.1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5rem 0 0;
+      transition: 0.6s;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .head-img {
+    img {
+      width: 50vw;
+    }
+  }
+}
+
+//end of styling the Header section.
+
+//call main and give it a relative position
+
+main {
+  position: relative;
+  padding: 0 0 12rem 0;
+}
+
+//begin styling the section one --
+
+.section {
+  display: flex;
+  align-items: center;
+  margin: 7rem 4rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px -10px $Very-Dark-Cyan;
+  padding: 3rem 1rem 3rem 4rem;
+  justify-content: space-between;
+
+  .sec-left {
+    h2 {
+      color: $Very-Dark-Cyan;
+      // color: red;
+      margin-bottom: 1rem;
+      font-family: $header-font;
+    }
+    p {
+      color: $Grayish-Blue;
+      margin-right: 25%;
+      line-height: 1.5rem;
+    }
+  }
+
+  .sec-right {
+    img {
+      width: 28vw;
+    }
+  }
+} //end of styling section one
+
+// section two
+
+.section-two {
+  .sec-two-right {
+    h2 {
+      margin-left: 25%;
+      font-family: $header-font;
+    }
+
+    p {
+      margin-right: 0;
+      margin-left: 25%;
+    }
+  }
+}
+
+.absolute {
+  box-shadow: 0 0 15px -10px $Very-Dark-Cyan;
+  width: 60%;
+  min-width: 550px;
+  margin: auto;
+  padding: 5rem 3rem 3rem;
+  text-align: center;
+  position: absolute;
+  top: -200px;
+  background-color: #fff;
+  left: 20%;
+  z-index: 10;
+  border-radius: 15px;
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2.3rem;
+    color: $Very-Dark-Cyan;
+    font-family: $header-font;
+    // color: red;
+  }
+  a {
+    text-decoration: none;
+    color: $Very-Pale-Cyan;
+    background-color: $Pink;
+    width: 300px;
+    height: 60px;
+    border-radius: 80px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin:  1rem auto 2rem;
+    align-items: center;
+  }
+}
+
+footer {
+  position: relative;
+  background-color: $Very-Dark-Cyan;
+  color: $Very-Pale-Cyan;
+  z-index: 1;
+
+  padding: 7rem 2rem 1rem;
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem 0 0;
+    // div{
+    //     flex: 1;
+    // }
+  }
+}
+
+.address {
+    width: 30%;
+  img.logo {
+    width: 105px;
+  }
+
+  p {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 12px;
+    margin: 20px 0 20px;
+    line-height: 18px;
+    span {
+      display: inline-block;
+    }
+
+    img {
+      width: 10px;
+      display: inline-block;
+      // margin-right: 10px;
+    //   height: 15px;
+    }
+  }
+
+  
+}
+
+.links{
+
+    padding: 3rem 0;
+    
+    a{
+        display: block;
+        text-decoration: none;
+        color: $Very-Pale-Cyan;
+        font-size: 12px;
+        margin: 0 0 1.5rem 0;
+        transition: ease 0.6s;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+} 
+
+
+
+.social {
+  
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+
+    a{
+        // display: inline-block;
+        // margin-right: 10px;
+        border-radius: 50%;
+        border: 1px solid $Very-Pale-Cyan;
+        display: flex;
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+       
+       
+        &:hover{
+            color: $Pink;
+            border-color: $Pink;
+            text-decoration: none;
+        }
+    }
+}
+
+#copy {
+  text-align: right;
+  font-size: 10px;
+}
