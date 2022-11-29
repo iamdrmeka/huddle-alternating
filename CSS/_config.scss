@@ -31,3 +31,20 @@ $Grayish-Blue: hsl(208, 11%, 55%);
 //fonts
 $body-font: 'Open Sans', sans-serif;
 $header-font: 'Poppins', sans-serif;
+
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: $Grayish-Blue;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: $Very-Dark-Cyan;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: $Pink
+}
