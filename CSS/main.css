@@ -320,7 +320,7 @@ footer .flex-container {
     padding: 3rem 1rem 2rem;
   }
   .absolute h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .absolute a {
     width: 150px;
@@ -345,5 +345,8 @@ footer .flex-container {
   .social {
     justify-content: center;
     margin: 2rem 0;
+  }
+  #copy {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
