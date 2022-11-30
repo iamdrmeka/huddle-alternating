@@ -231,6 +231,7 @@ footer {
     img {
       width: 10px;
       display: inline-block;
+      transform: translateY(5px);
       // margin-right: 10px;
     //   height: 15px;
     }
@@ -271,8 +272,8 @@ footer {
         border-radius: 50%;
         border: 1px solid $Very-Pale-Cyan;
         display: flex;
-        width: 25px;
-        height: 25px;
+        width: 27px;
+        height: 27px;
         justify-content: center;
         align-items: center;
        
